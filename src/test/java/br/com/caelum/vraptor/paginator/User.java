@@ -10,6 +10,12 @@ public class User {
 	private int id;
 	private String name;
 
+	/*
+	 * @deprecated JPA eye only
+	 */
+	public User(){
+	}
+
 	public User(int id, String name) {
 		super();
 		this.id = id;
